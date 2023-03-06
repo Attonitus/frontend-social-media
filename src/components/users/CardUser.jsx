@@ -85,7 +85,7 @@ function CardUser({profilePicture, name, username, _id}) {
                         <div className="cardImg">
                         <NavLink to={`/social/profile/${_id}`}>
                             <img 
-                            src={profilePicture ? profilePicture.url : '../../../assets/user_default.jpg'} 
+                            src={profilePicture ? profilePicture.url : 'https://res.cloudinary.com/dkzturwmj/image/upload/v1678075277/usersImage/user_default_rna1sq.jpg'} 
                             alt={name} title={name} width="50" height="50" /></NavLink>
                         </div>
                         <div className="cardInfo">

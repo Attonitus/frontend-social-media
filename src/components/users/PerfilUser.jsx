@@ -113,13 +113,13 @@ function PerfilUser({auth}) {
         <PerfilUserStyled>
             <div className="perfil">
                 <div className="perfilCover">
-                    <img className='cover' src={auth.coverPicture  ? auth.coverPicture.url : '../../../assets/default-cover.png'} alt={`Imagen de ${auth.name}`} title={`Imagen de ${auth.name}`} />
-                    <img className='perfilImg' src={auth.profilePicture  ? auth.profilePicture.url : '../../../assets/user_default.jpg'} alt={`Imagen de ${auth.name}`} title={`Imagen de ${auth.name}`} />
+                    <img className='cover' src={auth.coverPicture  ? auth.coverPicture.url : 'https://res.cloudinary.com/dkzturwmj/image/upload/v1678075277/usersImage/default-cover_swixy8.png'} alt={`Imagen de ${auth.name}`} title={`Imagen de ${auth.name}`} />
+                    <img className='perfilImg' src={auth.profilePicture  ? auth.profilePicture.url : 'https://res.cloudinary.com/dkzturwmj/image/upload/v1678075277/usersImage/user_default_rna1sq.jpg'} alt={`Imagen de ${auth.name}`} title={`Imagen de ${auth.name}`} />
                 </div>
                 <div className="perfilDescription">
                     <span>{auth.username}</span>
                     <div className="about-div">
-                        <span className='about'>{auth.about ? auth.about : "No posse una biografía"}</span>
+                        <span className='about'>{auth.about ? auth.about : "No posee una biografía"}</span>
                     </div>
                     <span className='followInfo'>{auth.followers.length} Seguidores | {auth.following.length} Siguiendo</span>
                 </div>
