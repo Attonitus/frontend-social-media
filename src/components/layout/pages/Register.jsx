@@ -16,6 +16,8 @@ const RegisterStyled = styled.div`
         display: flex;
         gap: .5rem;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background-color: #282C31;
         padding: 2rem;
     }
