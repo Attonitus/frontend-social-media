@@ -68,7 +68,7 @@ function Header() {
                                 <NavLink to="/"><span className="material-symbols-outlined icon">home</span></NavLink>
                                 <NavLink to="/social/profile">
                                     <img 
-                                    src={auth.profilePicture ? auth.profilePicture.url : '../../../assets/user_default.jpg'}  
+                                    src={auth.profilePicture ? auth.profilePicture.url : 'https://res.cloudinary.com/dkzturwmj/image/upload/v1678075277/usersImage/user_default_rna1sq.jpg'}  
                                     alt={auth.name} 
                                     title={auth.name}
                                     width="50" height="50"/>
