@@ -37,7 +37,7 @@ function Error404() {
                     <Link to="login">Regresar al login</Link>
                 </div>
                 <div className="image">
-                    <img src="../../../assets/404.png" alt="Hubo un error" title='Hubo un error' />
+                    <img src="https://res.cloudinary.com/dkzturwmj/image/upload/v1678075277/usersImage/404_qvyors.png" alt="Hubo un error" title='Hubo un error' />
                 </div>
             </div>
         </Error404Styled>
