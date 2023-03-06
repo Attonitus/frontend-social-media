@@ -118,7 +118,7 @@ function Register() {
                     <label htmlFor="coverPicture">Imagen de portada (Opcional):</label>
                     <input type="file" name='coverPicture' id='coverPicture' value={coverPicture} onChange={onInputChange} />
                     <label htmlFor="about">Biografia (Opcional):</label>
-                    <textarea id="about" name="about" rows="4" cols="50" value={about} onChange={onInputChange} />
+                    <textarea id="about" name="about" rows="4" cols="25" value={about} onChange={onInputChange} />
                     {
                         loading ? (<div className='loading'><span>Cargando...</span></div>) : null
 
