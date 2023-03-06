@@ -1,3 +1,3 @@
 export const GlobalUrl = {
-    url: "http://localhost:5000/api/v2"
+    url: "https://backend1-red-social-atto.onrender.com/api/v2"
 }
