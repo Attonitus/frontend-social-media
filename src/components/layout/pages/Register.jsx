@@ -28,6 +28,7 @@ const RegisterStyled = styled.div`
         padding-block: .5rem;
         padding-inline: 1rem;
         font-family: 'Poppins', sans-serif;
+        background-color: white;
     }
     textarea{
         resize: none;
