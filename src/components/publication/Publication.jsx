@@ -177,7 +177,7 @@ function Publication({createdAt, description, image, userId, likes, token, auth,
                             <div className="imgPubli">
                                 <Link to={`profile/${userId}`}>
                                 <img className='perfilImg'
-                                src={user.profilePicture ? user.profilePicture.url : '../../../assets/user_default.jpg'} 
+                                src={user.profilePicture ? user.profilePicture.url : 'https://res.cloudinary.com/dkzturwmj/image/upload/v1678075277/usersImage/user_default_rna1sq.jpg'} 
                                 alt={`Imagen de ${user.name}`} title={`Imagen de ${user.name}`} width="50" height="50" />
                                 </Link>
                             </div>
